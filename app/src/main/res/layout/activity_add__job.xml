@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.aptech.current_demo.Add_Job"
+    android:background="@drawable/ligr"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="1">
+    <EditText
+        android:id="@+id/jobtitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:hint="Job title"
+        android:layout_marginTop="10dp"/>
+    <EditText
+        android:id="@+id/jobskills"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:hint="Job Skills"
+        android:layout_marginTop="10dp"/>
+    <EditText
+        android:id="@+id/joblocation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:hint="Job Location"
+        android:layout_marginTop="10dp"/>
+
+
+    <EditText
+        android:id="@+id/companydetails"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:hint="Company Details"
+        android:layout_marginTop="10dp"/>
+        <EditText
+            android:id="@+id/email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:hint="Company Email Address"
+            android:layout_marginTop="10dp"/>
+    <Spinner
+        android:id="@+id/salary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:popupBackground="#fff0"
+       >
+
+
+    </Spinner>
+    <Spinner
+        android:id="@+id/experience"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:popupBackground="#fff0"
+        android:spinnerMode="dialog"
+        >
+
+    </Spinner>
+    <Spinner
+        android:id="@+id/functionalarea"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:popupBackground="#fff0"
+        android:spinnerMode="dialog">
+
+    </Spinner>
+
+    <Button
+        android:id="@+id/addjobs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+
+        android:text="Add Jobs"/>
+
+
+</LinearLayout>
+</ScrollView>

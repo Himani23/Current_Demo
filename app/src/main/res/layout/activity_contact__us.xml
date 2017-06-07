@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/cont"
+    tools:context="com.aptech.current_demo.Contact_Us"
+    android:weightSum="1">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+        <ImageView
+            android:id="@+id/cnt"
+            android:layout_width="wrap_content"
+            android:layout_height="79dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="2dp"
+            android:background="@drawable/chv" />
+
+        <TextView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:text="Developer Name "
+            android:gravity="center"
+        android:layout_marginTop="2dp"
+            android:textColor="#000000"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginTop="20dp"
+        android:text="Vishal Singh      Himani Sharma"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textColor="#0000FF"/>
+
+   <!-- <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Himani Sharma"
+        android:textColor="#0000FF"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:textStyle="bold" />-->
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Contact Number"
+        android:gravity="center"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:layout_marginTop="5dp"
+        android:textSize="20dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="8288063313"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:id="@+id/c1"
+        android:layout_marginTop="20dp"
+        android:textColor="#0000FF"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="8557077687"
+        android:gravity="center"
+        android:id="@+id/c2"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_marginTop="2dp"
+        android:textColor="#0000FF"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Email"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="rajputsinghvishal07@gmail.com"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:textColor="#0000FF"
+        android:textStyle="bold"
+        android:id="@+id/e1"
+        android:textSize="20dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:text="himanisharma191@gmail.com"
+        android:id="@+id/e3"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_marginTop="2dp"
+        android:textColor="#0000FF"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:text="Official Email ID"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+        android:textColor="#000000"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:text="Androdevelopersldh@gmail.com"
+        android:id="@+id/e2"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+        android:textColor="#0000FF"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:text="Contact us \n We are here to answer any questions you may have about our services. Reach out to us and we'll respond as soon as we can."
+            android:layout_marginTop="10dp"
+            android:background="#6A5ACD"
+            android:textColor="#ffffff"
+            android:textStyle="italic"
+            android:textSize="15dp"
+            />
+
+    </LinearLayout>
+
+
+</ScrollView>

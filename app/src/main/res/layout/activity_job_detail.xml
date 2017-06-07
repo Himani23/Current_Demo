@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bp"
+    android:orientation="vertical"
+
+    tools:context="com.aptech.current_demo.JobDetail">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+
+        android:background="@drawable/cary"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/Jtitle"
+        android:layout_marginTop="20dp"
+        android:text=" Job Title"
+        android:textColor="#000000"
+        android:textSize="20dp"/>
+
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:id="@+id/Jskills"
+        android:text="Job Skills"
+        android:textColor="#000000"
+        android:textSize="20dp"
+        />
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/Jlocation"
+        android:textColor="#000000"
+        android:layout_marginTop="10dp"
+        android:textSize="20dp"
+        android:text="Location"
+        />
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/Jsal"
+        android:text="Salary"
+        android:textColor="#000000"
+        android:layout_marginTop="10dp"
+        android:textSize="20dp"
+        />
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/Jprofile"
+        android:text="Job Profile"
+        android:textColor="#000000"
+        android:layout_marginTop="10dp"
+        android:textSize="20dp"
+        />
+
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/Jcompany"
+        android:text="Company Details"
+        android:textColor="#000000"
+        android:layout_marginTop="10dp"
+        android:textSize="20dp"
+        />
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" Select Resume "
+                android:layout_marginTop="10dp"
+                android:id="@+id/resume"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" "
+                android:layout_marginTop="10dp"
+                android:id="@+id/rpath"
+                />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=" APPLY "
+        android:layout_marginTop="10dp"
+        android:id="@+id/applyJob"
+        />
+</LinearLayout>
+    </ScrollView>
+
+
+
+</LinearLayout>

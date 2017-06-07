@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">My Project</string>
+    <string name="desc">
+        The Application concerns on various Parts of the Students needs that will help the
+        Students and Employees to find a job related to their streams.
+        there are various options provided in the application:-\n
+
+        1. Current Affairs\n
+        2. News\n
+        3. Tutorials\n
+        4. Cricket News\n
+        5. Find job\n
+        6. Internships\n
+
+
+    </string>
+    <string name="faq">
+        1.Question: How can I Change my password?\n
+          Answer:   First,Login your account.Go to the Settings that allows you to change your password.\n\n\n
+
+        2.Question: What happens to my profile after Login?\n
+          Answer:   After Login ,You can access all the Latest Current affairs, News, Job-offers and so many opportunities for you.This app is helpful and Useful to everyone.\n\n\n
+
+        3.Question: Do you have any internship opportunity?How do i apply?\n
+          Answer:   Yes, huge no of internship opportunities according to your needs.You can learn as well as earn.\n\n\n
+
+        4.Question: Can i attach a file of my resume or CV?\n
+          Answer:   Yes, you can.\n\n\n
+
+        5.Question: Do I need to prepare anything prior to applying to dell?\n
+          Answer:   Yes, you must have to do it.\n\n\n
+
+        6.Question: How do I search for current openings?\n
+          Answer:   After Login ,Go to the search jobs then can you search for new current openings.\n\n\n
+
+
+
+    </string>
+    <string name="title_activity_news_detail">news_detail</string>
+</resources>

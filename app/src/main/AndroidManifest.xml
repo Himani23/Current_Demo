@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.aptech.current_demo">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:debuggable="false"
+        android:icon="@drawable/currentstreamline"
+        android:label="CurrentStreamLine"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="CurrentStreamLine"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".LoginActivity"
+            android:label="Login Here" />
+        <activity android:name=".Registration"
+            android:label="Registration here"/>
+        <activity android:name=".Home_Page"
+            android:label="Home"/>
+        <activity android:name=".Admin_Activity" />
+        <activity android:name=".Add_Ca" />
+        <activity android:name=".Add_Job" />
+        <activity android:name=".About_Us" />
+        <activity android:name=".AddNews" />
+        <activity android:name=".JobInternship" />
+        <activity android:name=".Search_current" />
+        <activity android:name=".Search_job" />
+        <activity android:name=".Search_news" />
+        <activity android:name=".Search_fresher" />
+        <activity android:name=".Search_tutorials" />
+        <activity android:name=".Settings" />
+        <activity android:name=".Contact_Us" />
+        <activity android:name=".About" />
+        <activity android:name=".Change_Password" />
+        <activity android:name=".Setting_pass" />
+        <activity android:name=".feedback" />
+        <activity android:name=".department" />
+        <activity android:name=".Search_dept" />
+        <activity android:name=".TutorialList" />
+        <activity android:name=".View_CA_Desc" />
+        <activity android:name=".JobDetail" />
+        <activity android:name=".HelpActivity" />
+        <activity android:name=".InternList" />
+        <activity android:name=".News_detail"></activity>
+    </application>
+
+</manifest>
